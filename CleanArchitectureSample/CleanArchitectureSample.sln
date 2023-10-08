@@ -11,11 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitectureSample.Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitectureSample.Infra.IoC", "CleanArchitectureSample.Infra.IoC", "{97A69735-D9D9-4A9E-9438-0D6C88B7CEB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitectureSample.UI.Mvc", "CleanArchitectureSample.UI.Mvc", "{78ED771D-EA39-4C3B-92B9-84D1A8D0D63D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitectureSample.UI.Mvc", "CleanArchitectureSample.UI.Mvc", "{476394FD-2DD6-4A71-BD96-0F805C5D2A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureSample.Mvc", "CleanArchitectureSample.Mvc\CleanArchitectureSample.Mvc.csproj", "{7C133129-7A55-4F4E-BF8E-D5EC914677F2}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C133129-7A55-4F4E-BF8E-D5EC914677F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C133129-7A55-4F4E-BF8E-D5EC914677F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C133129-7A55-4F4E-BF8E-D5EC914677F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C133129-7A55-4F4E-BF8E-D5EC914677F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C133129-7A55-4F4E-BF8E-D5EC914677F2} = {476394FD-2DD6-4A71-BD96-0F805C5D2A4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {613C05C4-4B06-4D54-8D37-AF00F4D4B44B}
