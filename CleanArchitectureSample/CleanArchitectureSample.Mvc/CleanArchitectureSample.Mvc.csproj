@@ -20,4 +20,8 @@
     <ProjectReference Include="..\CleanArchitectureSample.Infra.IoC\CleanArchitectureSample.Infra.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>
