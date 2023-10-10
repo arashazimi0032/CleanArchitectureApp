@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArchitectureSample.Application\CleanArchitectureSample.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitectureSample.Infra.Bus\CleanArchitectureSample.Infra.Bus.csproj" />
     <ProjectReference Include="..\CleanArchitectureSample.Infra.Data\CleanArchitectureSample.Infra.Data.csproj" />
   </ItemGroup>
 
