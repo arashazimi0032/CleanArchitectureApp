@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureSample.Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureSample.Application", "CleanArchitectureSample.Application\CleanArchitectureSample.Application.csproj", "{EB5BE155-ACF8-40B5-BD4C-5340B4D177EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureSample.Infra.IoC", "CleanArchitectureSample.Infra.IoC\CleanArchitectureSample.Infra.IoC.csproj", "{E23C404B-12F8-43C4-8670-66475D265F83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureSample.Infra.IoC", "CleanArchitectureSample.Infra.IoC\CleanArchitectureSample.Infra.IoC.csproj", "{E23C404B-12F8-43C4-8670-66475D265F83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{E4334411-8DF0-4E6D-AA3C-B616D0034A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{9A6F1AFB-3129-498C-B55A-992D02928CB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
