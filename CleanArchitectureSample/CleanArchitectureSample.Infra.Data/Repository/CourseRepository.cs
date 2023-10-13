@@ -17,7 +17,14 @@ namespace CleanArchitectureSample.Infra.Data.Repository
         {
             _ctx = ctx;
         }
-        public IEnumerable<Course> GetCourses()
+
+        public void Add(Course course)
+        {
+            _ctx.Courses.Add(course);
+            _ctx.SaveChanges();
+        }
+
+        public IQueryable<Course> GetCourses()
         {
             return _ctx.Courses;
         }
