@@ -1,1 +1,1 @@
-# CleanArchApp
+# CleanArchApp with mediator design pattern.
